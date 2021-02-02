@@ -1,0 +1,161 @@
+    1  ls
+    2  ls /data
+    3  ls /
+    4  pwd
+    5  mkdir Boot_Camp
+    6  pwd
+    7  cd Boot_Camp/
+    8  pwd
+    9  pwd
+   10  ls 
+   11  ls
+   12  mkdir inner_directory
+   13  cd inner_directory/
+   14  mkdir outer_directory
+   15  cd outer_directory/
+   16  mkdir -p innner_directory/outer_directory 
+   17  ls
+   18  pwd
+   19  ls
+   20  cd
+   21  pwd
+   22  cd /
+   23  pwd
+   24  pwd
+   25  cd
+   26  pwd
+   27  cd home
+   28  cd User
+   29  cd Boot_Camp/
+   30  cd inner_directory/outer_directory/
+   31  pwd
+   32  cd
+   33  cd /cmd/
+   34  ls
+   35  cd
+   36  ls
+   37  cd /Boot_Camp/inner_directory
+   38  cd
+   39  cd inner_directory/outer_directory/
+   40  cd Boot_Camp/
+   41  cd inner_directory/
+   42  cd outer_directory/
+   43  ..
+   44  cd ..
+   45  cd outer_directory/
+   46  cd ../..
+   47  cd /
+   48  pwd
+   49  pwd
+   50  cd ~
+   51  cd
+   52  pwd
+   53  cd /
+   54  cd ~
+   55  cd / 
+   56  pwd
+   57  cd ~
+   58  pwd
+   59  cd 
+   60  pwd
+   61  cd /
+   62  pwd
+   63  cd ~/Boot_Camp/inner_directory/outer_directory/
+   64  ls ../../
+   65  cd
+   66  ls -l / Boot_Camp/
+   67  ls -R /bin/
+   68  ls -lh /bin/
+   69  man ls
+   70  man cd
+   71  cd Boot_Camp/inner_directory/outer_directory/
+   72  cd ..
+   73  ls
+   74  rmdir outer_directory/
+   75  ls
+   76  cd outer_directory/
+   77  ls
+   78  cd ..
+   79  cd outer_directory/
+   80  rmdir innner_directory/
+   81  ls
+   82  cd innner_directory/
+   83  ls
+   84  cd outer_directory/
+   85  ls
+   86  cd..
+   87  cd ..
+   88  rmdir outer_directory/
+   89  ls
+   90  git --version 
+   91  clr
+   92  clear
+   93  cl
+   94  clear
+   95  mkdir git-basic-exercises
+   96  ls
+   97  cd git-basic-exercises/
+   98  ls -a
+   99  git init
+  100  ls -a
+  101  git status
+  102  touch READMe.md
+  103  ls -a
+  104  git status
+  105  git log
+  106  git add READMe.md 
+  107  git status
+  108  git commit -m "initial commit"
+  109  cd 'git config'/
+  110  cd 'Git Config'/
+  111  git config --global user,name "QuantTK"
+  112  git config --global user.name "QuantTK"
+  113  git congig --global user.email kgasagotk@gmail.com
+  114  git config --global user.email kgasagotk@gmail.com
+  115  git config --list
+  116  git status
+  117  git commit -m "initial commit"
+  118  git log
+  119  nano README.md
+  120  cat README.md
+  121  git status
+  122  git commit -m "second commit"
+  123  git commit -a "second commit"
+  124  git commit -m "second commit"
+  125  git commit READMe.md "second commit"
+  126  git commit README.md "second commit"
+  127  git add READMe.md 
+  128  git commit -m "second commit"
+  129  git status
+  130  nano READMe.md 
+  131  git add READMe.md 
+  132  git commit _m "thrid commit"
+  133  git commit -m "thrid commit"
+  134  git log
+  135  cat READMe.md 
+  136  nano READMe.md 
+  137  cat READMe.md 
+  138  git status
+  139  git log
+  140  q
+  141  git checkout c02f533baaea448b9a324bff21d47c3f3cdc0a94
+  142  cat READMe.md 
+  143  git checkout main
+  144  git checkout master
+  145  cat READMe.md 
+  146  git checkout c02f533baaea448b9a324bff21d47c3f3cdc0a94
+  147  git branch
+  148  git branch milkshake-flowers
+  149  git checkout milkshake-flowers
+  150  nano milkshake-flowers 
+  151  cat milkshake-flowers 
+  152  git status
+  153  git add milkshake-flowers 
+  154  git commit -m "added initial flavours"
+  155  git log
+  156  git checkout master 
+  157  git branch history
+  158  git checkout history 
+  159  git log
+  160  git branch
+  161  history > hitory.txt
