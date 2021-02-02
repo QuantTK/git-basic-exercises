@@ -1,1 +1,2 @@
-I ove working with git commands
+I love working with git commands
+this is awesome
