@@ -1,1 +1,1 @@
-Git is very interesting
+I ove working with git commands
